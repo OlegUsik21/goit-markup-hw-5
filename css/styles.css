@@ -658,6 +658,7 @@ img {
 .modal-text {
   width: 360px;
   height: 24px;
+  margin-bottom: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
