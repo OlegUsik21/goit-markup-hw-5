@@ -757,16 +757,17 @@ img {
 }
 
 .wrapper-agreement {
- margin-bottom: 24px; 
+ margin-bottom: 16px; 
 }
 
 .input-agreement {
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-agreement:checked + .frase-agreement {
-  color: #F4F4FD;
-  background-color: #404bbf;
-  border-color: #404bbf;
+.input-agreement:checked + .box-agreement {
+  color:  #F4F4FD;
+  background-color: #404bbf;;
+  border: none;
 }
 
 .input-agreement:checked + .frase-agreement > .agreement-icon {
@@ -792,7 +793,8 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
-
+  width: 16px;
+  height: 16px;
   margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
