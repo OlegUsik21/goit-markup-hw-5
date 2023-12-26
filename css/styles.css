@@ -780,7 +780,7 @@ img {
   border: none;
 }
 
-.checkbox-input:checked + .box-agreement > .agreement-icon {
+.checkbox-input:checked + .box-agreement > .box-agreement {
   opacity: 1;
 }
 
