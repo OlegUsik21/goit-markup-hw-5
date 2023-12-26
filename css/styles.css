@@ -757,9 +757,8 @@ img {
 }
 
 .checkbox{
- margin-bottom: 24px;
- display: inline-flex;
- flex-direction: row-reverse;
+  display: inline-flex;
+  margin-bottom: 24px;
 }
 
 .checkbox-label {
@@ -808,7 +807,6 @@ img {
   fill: #f4f4fd;
   width: 10px;
   height: 8px;
-  opacity: 0;
 }
 .agreement-link {
   font-family: Roboto;
