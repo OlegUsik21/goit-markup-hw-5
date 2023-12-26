@@ -776,7 +776,7 @@ img {
 }
 
 .checkbox-input:checked + .checkbox-label> .box-agreement {
-  color:  #F4F4FD;
+  fill:#F4F4FD;
   background-color: #404bbf;;
   border: none;
 }
