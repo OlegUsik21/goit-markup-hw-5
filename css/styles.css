@@ -776,21 +776,17 @@ img {
   user-select: none;
 }
 
-.box-checkbox{
- display: inline-flex;
-}
-
 .checkbox-input{
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-input:checked + .checkbox-label {
+.checkbox-input:checked + .box-agreement {
   color:  #F4F4FD;
   background-color: #404bbf;;
   border: none;
 }
 
-.input-agreement:checked + .frase-agreement > .agreement-icon {
+.checkbox-input:checked + .box-agreement > .agreement-icon {
   opacity: 1;
 }
 
@@ -810,8 +806,8 @@ img {
 
 .agreement-icon {
   fill: #f4f4fd;
-  width: 16px;
-  height: 16px;
+  width: 10px;
+  height: 8px;
   opacity: 0;
 }
 .agreement-link {
